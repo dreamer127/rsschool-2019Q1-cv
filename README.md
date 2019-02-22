@@ -1,1 +1,1 @@
-# https://dreamer127.github.io/rsschool-2019Q1-cv/
+# https://dreamer127.github.io/rsschool-2019Q1-cv/cv.md
