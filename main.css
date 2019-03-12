@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #445161;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  /* list-style-type: none; */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+  width: 1024px;
+  margin: 0 auto;
+
+}
+.header{
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.header_inner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.header_inner-photo {
+  width: 200px;
+}
+.header_inner-name{
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+.main{
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+.main_inner-title{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+.main_inner-info{
+  font-size: 20px;
+}
